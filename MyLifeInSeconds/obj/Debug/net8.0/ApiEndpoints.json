@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "MyLifeInSeconds.Controllers.TimeController",
+    "Method": "CalculateTimeSinceBirth",
+    "RelativePath": "api/Time/calculate-time/{dob}/{location}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dob",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
